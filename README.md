@@ -2,6 +2,9 @@
 # Classify Trees in Satellite Imagery 
 
 <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/40000/40228/moorhead_tm5_2009253.jpg" width=1000 height=400 alt="esto.nasa.gov"/>
+
+<br>
+
 <small>Fig.1 -  esto.nasa.gov</small>
 
 <br>
@@ -17,6 +20,9 @@ In this project, satellite photographs taken by the Sentinel-2 satellite were cl
 ### Sentinel - 2
 
 <img src="https://www.umvoto.com/wp-content/uploads/2021/06/Sentinel-2-infographic.jpg" width=1000 height=400 alt="esto.nasa.gov"/>
+
+<br>
+
 <small>Fig.2 -  sentinel.esa.int</small>
 
 **The Copernicus Sentinel-2** mission comprises a constellation of two polar-orbiting satellites placed in the same sun-synchronous orbit, phased at $180°$ to each other. It aims at monitoring variability in land surface conditions, and its wide swath width (290 km) and high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes) will support monitoring of Earth's surface changes.
@@ -47,6 +53,9 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 ### ResNet-50
 
 <img src="https://miro.medium.com/max/1400/0*9LqUp7XyEx1QNc6A.png" width=1000 height=300 alt="miro.medium.com"/>
+
+<br>
+
 <small>Fig.3 -  medium.com</small>
 
 *ResNet-50* is a convolutional neural network that is $50$ layers deep. The network can take the input image having height, width as multiples of $32$ and $3$ as channel width. For the sake of explanation, we will consider the input size as $224x224x3$. The *ResNet-50* model consists of 5 stages each with a convolution and Identity block. Each convolution block has 3 convolution layers and each identity block also has 3 convolution layers. The <i>ResNet-50</i> has over 23 million trainable parameters.
@@ -54,6 +63,9 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 ### VGG16
 
 <img src="https://miro.medium.com/max/1400/1*NNifzsJ7tD2kAfBXt3AzEg.png" width=1000 height=300 alt="medium.com"/>
+
+<br>
+
 <small>Fig.4 -  medium.com</small>
 
 *VGG16* is a convolution neural net (CNN) architecture which was used to win ILSVR(Imagenet) competition in 2014. It is considered to be one of the excellent vision model architecture till date. In this section, we will start building our model. We will use the Sequential model class from Keras.
