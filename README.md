@@ -72,7 +72,7 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 
 On below, there are informations about the notebooks created respectively.
 
- -  In this section, studies on the visualization of the data set and the batch were made. Notebook: [1_0_data_preparation.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/1_0_data_preparation.ipynb)
+ -  In this section, studies on the visualization of the data set and the batch were made. <br> Notebook: [1_0_data_preparation.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/1_0_data_preparation.ipynb)
  - In this section, we build *ResNet-15* model for classification. Notebook: [2_0_pretrained_models_resnet50.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/2_0_pretrained_models_resnet50.ipynb) - Model has 98% accuracy.
  - In this section, we build *VGG16* model for classification. Notebook: [3_0_comparing_models_vgg16.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/3_0_comparing_models_vgg16.ipynb) - Model has 50% accuracy.
 
