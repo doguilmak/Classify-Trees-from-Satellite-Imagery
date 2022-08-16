@@ -17,7 +17,7 @@ In this project, satellite photographs taken by the Sentinel-2 satellite were cl
 
 ### Sentinel - 2
 
-<img src="https://www.umvoto.com/wp-content/uploads/2021/06/Sentinel-2-infographic.jpg" width=1000 height=400 alt="esto.nasa.gov"/>
+<img src="https://www.umvoto.com/wp-content/uploads/2021/06/Sentinel-2-infographic.jpg" width=1000 height=500 alt="esto.nasa.gov"/>
 
 <small>Fig.2 -  sentinel.esa.int</small>
 
