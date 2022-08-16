@@ -4,9 +4,13 @@
 <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/40000/40228/moorhead_tm5_2009253.jpg" width=1000 height=400 alt="esto.nasa.gov"/>
 <small>Fig.1 -  esto.nasa.gov</small>
 
+<br>
+
 ## Problem Statement
 
 In this project, satellite photographs taken by the Sentinel-2 satellite were classified with pre-trained *ResNet-50* and *VGG16* models. You can find the [dataset on Kaggle](https://www.kaggle.com/datasets/mcagriaksoy/trees-in-satellite-imagery). Tree detection can be used for applications such as vegetation management, forestry, urban planning, etc. Tree identifications are very important in terms of impending famine and forest fires.
+
+<br>
 
 ## About Dataset
 
@@ -36,6 +40,8 @@ M.Ç.Aksoy (2022). Trees in Satellite Imagery
 And you can also cite the source of this data EUROSAT:  
 Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217-2226.
 
+<br>
+
 ## About Models
 
 ### ResNet-50
@@ -52,13 +58,17 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 
 *VGG16* is a convolution neural net (CNN) architecture which was used to win ILSVR(Imagenet) competition in 2014. It is considered to be one of the excellent vision model architecture till date. In this section, we will start building our model. We will use the Sequential model class from Keras.
 
+<br>
+
 ## Notebooks
 
 On below, there are informations about the notebooks created respectively.
 
- -  In this section, studies on the visualization of the data set and the batch were made. Notebook: [1_0_data_preparation.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery%20/blob/main/games/TCPgame.py)
- - In this section, we build *ResNet-15* model for classification. Notebook: [3_0_comparing_models_vgg16.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery%20/blob/main/games/TCPgame.py) - Model has 98% accuracy.
- - In this section, we build *VGG16* model for classification. Notebook: [2_0_pretrained_models_resnet50.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery%20/blob/main/games/TCPgame.py) - Model has 50% accuracy.
+ -  In this section, studies on the visualization of the data set and the batch were made. Notebook: [1_0_data_preparation.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/1_0_data_preparation.ipynb)
+ - In this section, we build *ResNet-15* model for classification. Notebook: [3_0_comparing_models_vgg16.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/2_0_pretrained_models_resnet50.ipynb) - Model has 98% accuracy.
+ - In this section, we build *VGG16* model for classification. Notebook: [2_0_pretrained_models_resnet50.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/3_0_comparing_models_vgg16.ipynb) - Model has 50% accuracy.
+
+<br>
 
 ## References
 
@@ -67,6 +77,8 @@ On below, there are informations about the notebooks created respectively.
 - [Towards Data Science](https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c#:~:text=VGG16%20is%20a%20convolution%20neural,vision%20model%20architecture%20till%20date.)
 - [MathWorks](https://www.mathworks.com/help/deeplearning/ref/resnet50.html#:~:text=ResNet-50%20is%20a%20convolutional,,%20pencil,%20and%20many%20animals.)
 - [NASA](https://earthobservatory.nasa.gov/)
+
+<br>
 
 ## Contact Me
 
