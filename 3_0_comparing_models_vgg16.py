@@ -51,7 +51,7 @@ To download the dataset, you need to have a kaggle account.
 
   <br>
 
-  <p>Estimated Time Needed: <strong>15 min</strong></p>
+  <p>Estimated Time Needed: <strong>190 min</strong></p>
 
 </div>
 
