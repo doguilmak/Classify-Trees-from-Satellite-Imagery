@@ -155,7 +155,7 @@ for ax1 in axs:
 fig.suptitle('First Batch of Satellite Images') 
 plt.show()
 
-"""<p>Remember that batches are sampled randomly from the data. In our first batch, we ended up with two negative image and two positive images. Now, let's create a plot to visualize the images in the third batch.</p>"""
+"""<p>Remember that batches are sampled randomly from the data. Now, let's create a plot to visualize the images in the third batch.</p>"""
 
 second_batch_images=image_generator.next()[0]
 print(second_batch_images)
