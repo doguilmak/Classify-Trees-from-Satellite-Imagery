@@ -1,5 +1,4 @@
-
-# Classify Trees in Satellite Imagery 
+**<h1 align=center><font size = 5>Classify Trees in Satellite Imagery </font></h1>**
 
 <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/40000/40228/moorhead_tm5_2009253.jpg" width=1000 height=400 alt="esto.nasa.gov"/>
 
