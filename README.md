@@ -6,15 +6,24 @@
 
 <br>
 
-## Problem Statement
+## Project Statement
 
-In this project, satellite photographs taken by the Sentinel-2 satellite were classified with pre-trained *ResNet-50* and *VGG16* models. You can find the [dataset on Kaggle](https://www.kaggle.com/datasets/mcagriaksoy/trees-in-satellite-imagery). Tree detection can be used for applications such as vegetation management, forestry, urban planning, etc. Tree identifications are very important in terms of impending famine and forest fires.
+In this project, satellite photographs taken by the *Sentinel-2* satellite were classified with pre-trained *ResNet-50* and *VGG16* models. You can find the [dataset on Kaggle](https://www.kaggle.com/datasets/mcagriaksoy/trees-in-satellite-imagery). Tree detection can be used for applications such as vegetation management, forestry, urban planning, etc. Tree identifications are very important in terms of impending famine and forest fires.
+
+<br>
+
+## Keywords
+
+ - Satellite Imagery
+ - Computer Science
+ - ResNet-50
+ - VGG-16
+ - Classification
+ - Trees
 
 <br>
 
 ## About Dataset
-
-### Sentinel - 2
 
 <img src="https://www.umvoto.com/wp-content/uploads/2021/06/Sentinel-2-infographic.jpg" width=1000 height=500 alt="esto.nasa.gov"/>
 
@@ -30,15 +39,15 @@ This dataset is being used for classifying the land with class of trees or not i
 
 ### Content
 
-The content architecture is simple. Each datum has $64x64$ resolution and located under *tree* and *notree* folders.  
-Each folder (class) has $5200$ images. So the total dataset has $10.400$ images.
+The content architecture is simple. Each datum has *64x64* resolution and located under *tree* and *notree* folders.  
+Each folder (class) has *5200* images. So the total dataset has *10.400* images.
 
 ### Cite
 
 M.Ç.Aksoy (2022). Trees in Satellite Imagery
 
-And you can also cite the source of this data EUROSAT:  
-Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217-2226.
+And you can also cite the source of this data *EUROSAT:  
+Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(7), 2217-2226.*
 
 <br>
 
@@ -50,17 +59,15 @@ Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019). Eurosat: A novel datase
 
 <small>Fig.3 -  medium.com</small>
 
+*ResNet-50* is a convolutional neural network that is *50* layers deep. The network can take the input image having height, width as multiples of *32* and *3* as channel width. For the sake of explanation, we will consider the input size as *224x224x3*. The *ResNet-50* model consists of 5 stages each with a convolution and Identity block. Each convolution block has 3 convolution layers and each identity block also has *3* convolution layers. The *ResNet-50* has over *23 million* trainable parameters.
+
 <br>
 
-*ResNet-50* is a convolutional neural network that is $50$ layers deep. The network can take the input image having height, width as multiples of $32$ and $3$ as channel width. For the sake of explanation, we will consider the input size as $224x224x3$. The *ResNet-50* model consists of 5 stages each with a convolution and Identity block. Each convolution block has 3 convolution layers and each identity block also has 3 convolution layers. The <i>ResNet-50</i> has over 23 million trainable parameters.
-
-### VGG16
+### VGG-16
 
 <img src="https://miro.medium.com/max/1400/1*NNifzsJ7tD2kAfBXt3AzEg.png" width=1000 height=300 alt="medium.com"/>
 
 <small>Fig.4 -  medium.com</small>
-
-<br>
 
 *VGG16* is a convolution neural net (CNN) architecture which was used to win ILSVR(Imagenet) competition in 2014. It is considered to be one of the excellent vision model architecture till date. In this section, we will start building our model. We will use the Sequential model class from Keras.
 
