@@ -91,7 +91,7 @@ On below, there are informations about the notebooks created respectively.
  	1. [3_0_comparing_models_vgg16.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/3_0_comparing_models_vgg16.ipynb) - Model has 50% accuracy.
 
  4.  In this section, I build classification model with Class Activation Map (CAM).
-	  1. [4_0_model_with_cam.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/4_0_model_with_cam.ipynb) - Model has 93% accuracy.
+	  1. [4_0_model_with_cam.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/4_0_model_with_cam.ipynb) - Model has 93% accuracy. The results of the model on the test data are in the <a  href="https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/cam_model_csv_files/model_predictions.csv">model_predictions.csv</a> file. Just click the link to view. You can also review train, test and validation csv files <a  href="https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/tree/main/cam_model_csv_files">here</a>.</p>
 
 <br>
 
