@@ -83,7 +83,7 @@ On below, there are informations about the notebooks created respectively.
 
 	2.  [1_0_load_and_display_data.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/1_0_load_and_display_data.ipynb)
 		 
- 2. In this section, I build *ResNet-15* model for classification. <br> Notebook: 
+ 2. In this section, I build classification model with *ResNet-50*. <br> Notebook: 
  
 	1. [2_0_pretrained_models_resnet50.ipynb](https://github.com/doguilmak/Classify-Trees-in-Satellite-Imagery/blob/main/2_0_pretrained_models_resnet50.ipynb) - Model has 98% accuracy.
  3. In this section, I build *VGG16* model for classification. <br> Notebook:
